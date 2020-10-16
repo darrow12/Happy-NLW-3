@@ -10,7 +10,7 @@ const server = express()
 
 // Criar uma rota
 server.get('/', () => {
-    console.log('Oi')
+    
 })
 
 // Ligar o servidor
