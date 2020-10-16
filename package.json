@@ -1,0 +1,23 @@
+{
+  "name": "Happy-NLW-3",
+  "version": "1.0.0",
+  "description": "Este é um repositório sobre minha participação durante o Next Level Week da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darrooooow/Happy-NLW-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darrooooow/Happy-NLW-3/issues"
+  },
+  "homepage": "https://github.com/Darrooooow/Happy-NLW-3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
