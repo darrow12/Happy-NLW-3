@@ -4,13 +4,14 @@
 
 // Importar dependência
 const express = require('express');
+const path = require('path');
 
  // Iniciando o express
 const server = express()
 
 // Criar uma rota
-server.get('/', () => {
-    
+server.get('/', (request, response) => {
+    return response.sendFile(path.join(__dirname, 'views', 'index.html'))
 })
 
 // Ligar o servidor
