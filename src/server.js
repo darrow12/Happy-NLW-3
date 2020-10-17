@@ -19,7 +19,6 @@ server
 
 // Criar uma rota
 .get('/', (req, res) => { // req = request | res = response
-    console.log(request.query)
     const city  = req.query.city
     return res.render('index', { city }) // Quando utiliza o mesmo nome, não é necessário fazer name: <nome_da_variavel> porque ele já entende que o valor está embutido ali
 })
