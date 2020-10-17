@@ -1,4 +1,4 @@
-// NPM = Node Packge Manager
+// NPM = Node Package Manager
 // Algo mais ou menos como Gerenciador de pacotes Node
 
 
