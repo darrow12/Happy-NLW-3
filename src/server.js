@@ -5,9 +5,11 @@
 // Importar dependência
 const express = require('express');
 const path = require('path');
+const pages = require('./pages.js'); 
 
+console.log(pages)
  // Iniciando o express
-const server = express()
+const server = express();
 
 server
 // Utilizando os arquivos estáticos
@@ -17,12 +19,11 @@ server
     .set('views', path.join(__dirname, "views"))
     .set('view engine', 'hbs')
 
-// Criar uma rota
-.get('/', (req, res) => { // req = request | res = response
-    const city  = req.query.city
-    return res.render('index', { city }) // Quando utiliza o mesmo nome, não é necessário fazer name: <nome_da_variavel> porque ele já entende que o valor está embutido ali
-})
-
+    // rotas da aplicação
+    .get('/', pages.index)
+    .get('/orphanage', pages.orphanage)
+    .get('/orphanages', pages.orphanages)
+    .get('/create-orphanage', pages.createOrphanage)
 
 // Ligar o servidor
 server.listen(5500)
