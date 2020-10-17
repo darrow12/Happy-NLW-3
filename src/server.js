@@ -18,10 +18,10 @@ server
     .set('view engine', 'hbs')
 
 // Criar uma rota
-.get('/', (request, response) => {
+.get('/', (req, res) => { // req = request | res = response
     console.log(request.query)
-    const name = "Darrow"
-    return response.render('index', {name}) // Quando utiliza o mesmo nome, não é necessário fazer name: <nome_da_variavel> porque ele já entende que o valor está embutido ali
+    const city  = req.query.city
+    return res.render('index', { city }) // Quando utiliza o mesmo nome, não é necessário fazer name: <nome_da_variavel> porque ele já entende que o valor está embutido ali
 })
 
 
