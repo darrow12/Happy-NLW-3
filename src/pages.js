@@ -20,11 +20,16 @@ module.exports = {
             orphanage.images = orphanage.images.split(",")
             orphanage.firstImage = orphanage.images[0]
 
+// --------------------------- Desafio para mais tarde --------------------------- \\
             if(orphanage.open_on_weekends == "0") {
                 orphanage.open_on_weekends = false
             } else {
                 orphanage.open_on_weekends = true
             }
+
+    // Desafio:
+    // Descobrir como fazer um if ternário para colocar nesse open_on_weekends | Resumindo, transformar esse if else em um if ternário
+// --------------------------- Desafio para mais tarde --------------------------- \\
       
             return res.render('orphanage', { orphanage }) 
         } catch (error) {
