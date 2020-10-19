@@ -18,7 +18,6 @@ module.exports = [
         open_on_weekends: "1"
     },
 
-
     {
         id: 2,
         lat: "-23.453535",
