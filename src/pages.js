@@ -1,55 +1,85 @@
-const Database = require('./database/db');
-const saveOrphanage = require('./database/saveOrphanage');
+const Database = require("./database/db");
+const saveOrphanage = require("./database/saveOrphanage");
 
 module.exports = {
+  index(req, res) {
+    return res.render("index");
+  },
 
-    index(req, res) {
-        return res.render('index') 
-    },
+  async orphanage(req, res) {
+    const id = req.query.id;
 
-    async orphanage(req, res) {
+    try {
+      const db = await Database;
+      const results = await db.all(
+        `SELECT * FROM orphanages WHERE id = "${id}"`
+      );
+      const orphanage = results[0];
 
+      orphanage.images = orphanage.images.split(",");
+      orphanage.firstImage = orphanage.images[0];
 
-        const id = req.query.id
+      // --------------------------- Desafio para mais tarde --------------------------- \\
+      if (orphanage.open_on_weekends == "0") {
+        orphanage.open_on_weekends = false;
+      } else {
+        orphanage.open_on_weekends = true;
+      }
 
-        try {
-            const db = await Database;
-            const results = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`)
-            const orphanage = results[0]
+      // Desafio:
+      // Descobrir como fazer um if ternário para colocar nesse open_on_weekends | Resumindo, transformar esse if else em um if ternário
+      // --------------------------- Desafio para mais tarde --------------------------- \\
 
-            orphanage.images = orphanage.images.split(",")
-            orphanage.firstImage = orphanage.images[0]
-
-// --------------------------- Desafio para mais tarde --------------------------- \\
-            if(orphanage.open_on_weekends == "0") {
-                orphanage.open_on_weekends = false
-            } else {
-                orphanage.open_on_weekends = true
-            }
-
-    // Desafio:
-    // Descobrir como fazer um if ternário para colocar nesse open_on_weekends | Resumindo, transformar esse if else em um if ternário
-// --------------------------- Desafio para mais tarde --------------------------- \\
-      
-            return res.render('orphanage', { orphanage }) 
-        } catch (error) {
-            console.log(error);
-            return res.send('Erro no banco de dados')
-        }
-    },
-
-    async orphanages(req, res) {
-        try {
-            const db = await Database;
-            const orphanages = await db.all("SELECT * FROM orphanages")
-            return res.render('orphanages', { orphanages }) 
-        } catch (error) {
-            console.log(error)
-            return res.send('Erro no banco de dados')
-        }
-    },
-
-    createOrphanage(req, res) {
-        return res.render('create-orphanage') 
+      return res.render("orphanage", { orphanage });
+    } catch (error) {
+      console.log(error);
+      return res.send("Erro no banco de dados");
     }
-}
+  },
+
+  async orphanages(req, res) {
+    try {
+      const db = await Database;
+      const orphanages = await db.all("SELECT * FROM orphanages");
+      return res.render("orphanages", { orphanages });
+    } catch (error) {
+      console.log(error);
+      return res.send("Erro no banco de dados");
+    }
+  },
+
+  createOrphanage(req, res) {
+    return res.render("create-orphanage");
+  },
+
+  async saveOrphanage(req, res) {
+    const fields = req.body;
+
+    // Validar se todos os campos estão preenchidos
+    if (Object.values(fields).includes("")) {
+      return res.send("Todos os campos devem ser preenchidos!");
+    }
+
+    try {
+      // Salvar um orfanato
+      const db = await Database;
+      await saveOrphanage(db, {
+        lat: fields.lat,
+        lng: fields.lng,
+        name: fields.name,
+        about: fields.about,
+        whatsapp: fields.whatsapp,
+        images: fields.images.toString(),
+        instructions: fields.instructions,
+        opening_hours: fields.opening_hours,
+        open_on_weekends: fields.open_on_weekends,
+      });
+
+      // Redirecionamento
+      return res.redirect("/orphanages");
+    } catch (error) {
+      console.log(erro);
+      return res.send("Erro no banco de dados!");
+    }
+  },
+};

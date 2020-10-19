@@ -95,3 +95,17 @@ function toggleSelect(event) {
     input.value = button.dataset.value
 
 }
+
+// --------------------------- Desafio para mais tarde --------------------------- \\
+function validate(event) {
+    // Validar se lat e lng estão preenchidos
+    const needsLatAndLng = false; // Agora devo descobrir como vou fazer aquele input.value vazio. Ou nessa linha ou na debaixo ||
+    // Ele tá true, e quando a pessoa deixar de selecionar o mapa e aparecer o popup, o de cima vai virar false e ai ele nao entra mais ali
+    if (needsLatAndLng) {
+        event.preventDefault() // Não envia o formulário
+        alert('Selecione um ponto no mapa')
+    }
+
+    // Dicas: Como fazer o if | Pegar o campo com document.querySelector | Verificar se no value está vazio (Algo como isso aqui     if(input.value == "") {<quebra de linha> return <quebra de linha>}) | Se value estiver vazio, faça esse event.preventDefault
+}
+// --------------------------- Desafio para mais tarde --------------------------- \\

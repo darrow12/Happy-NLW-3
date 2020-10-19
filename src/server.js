@@ -12,6 +12,8 @@ console.log(pages)
 const server = express();
 
 server
+// Utilizar body do req
+    .use(express.urlencoded({ extended: true }))
 // Utilizando os arquivos estáticos
 .use(express.static('public')) // Express cria todas as rotas que precisa no public
 
@@ -24,6 +26,7 @@ server
     .get('/orphanage', pages.orphanage)
     .get('/orphanages', pages.orphanages)
     .get('/create-orphanage', pages.createOrphanage)
+    .post('/save-orphanage', pages.saveOrphanage)
 
 // Ligar o servidor
 server.listen(5500)
