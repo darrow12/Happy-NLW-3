@@ -3,7 +3,7 @@
 # 📄 Instalação
 <hr />
 
-npm install nodemon
-npm install handlebars
-npm install sqlite-async
-npm install express
+npm install nodemon<br />
+npm install handlebars<br />
+npm install sqlite-async<br />
+npm install express<br />
