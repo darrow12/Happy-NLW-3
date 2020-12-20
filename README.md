@@ -9,3 +9,5 @@ npm install nodemon<br />
 npm install handlebars<br />
 npm install sqlite-async<br />
 npm install express<br />
+
+Para iniciar: npm start
