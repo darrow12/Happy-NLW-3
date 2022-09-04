@@ -11,3 +11,7 @@ npm install
 # Agora, inicie o projeto
 npm start
 ```
+
+# Teste o projeto
+
+Ele está disponível na web, basta acessar: https://happy-nlw-3.darrow404.repl.co/
