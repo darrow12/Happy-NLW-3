@@ -2,7 +2,7 @@
 
 Este é um repositório sobre minha participação durante o Next Level Week 3 da Rocketseat.
 
-## 📥 Installation
+## 📥 Instalação
 
 ```bash
 # Instale tudo
