@@ -12,6 +12,6 @@ npm install
 npm start
 ```
 
-# Teste o projeto
+# ✨ Preview
 
-Ele está disponível na web, basta acessar: https://happy-nlw-3.darrow404.repl.co/
+O projeto está disponível na web, basta acessar: https://happy-nlw-3.darrow404.repl.co/
