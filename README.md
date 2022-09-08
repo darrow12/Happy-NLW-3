@@ -44,11 +44,22 @@
 
 
 <br>
+
+## ✨ · Demo
+
+Want to see a live demo of the project is doing? It's already on the web!
+
+Click the link to see: https://happy-nlw-3.darrow404.repl.co/
+
+## 🚀 · Built with
+- [Handlebars](https://handlebarsjs.com/)
+- CSS
+- JavaScript
+- [SQLite](https://www.sqlite.org/)
+
 <br>
 
-
-
- <a href='#top'>🔼 Back to top</a>
+<a href='#top'>🔼 Back to top</a>
 
 <br>
 
