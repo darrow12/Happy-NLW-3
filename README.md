@@ -20,10 +20,11 @@
   <a href="https://github.com/darrow12">
     <img src="https://img.shields.io/static/v1?label=Made by&message=Darrow&color=FFD666&labelColor=0CC2CA&style=<STYLE>&logo=github" alt="Made by Darrow" title="Made by Darrow">
   </a>
-  
-  <img src="https://img.shields.io/static/v1?label=NLW&message=03&color=FFD666&labelColor=0CC2CA" alt="NLW 03">
+  <a href="https://lp.rocketseat.com.br/nlw">
+    <img src="https://img.shields.io/static/v1?label=NLW&message=03&color=FFD666&labelColor=0CC2CA" alt="NLW 03">
+  </a>
 
-  <a href="https://github.com/darrow12/Happy-NLW-3/commits/main">
+  <a href="https://github.com/darrow12/Happy-NLW-3/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/darrow12/Happy-NLW-3?label=Last commit&color=FFD666&labelColor=0CC2CA">
   </a>
 
@@ -32,9 +33,10 @@
     <img alt="Contributions welcome" src="https://img.shields.io/static/v1?label=Contributions&message=welcome!&color=FFD666&labelColor=0CC2CA">
   </a>
   
-  <img src="https://img.shields.io/github/license/darrow12/Happy-NLW-3?color=FFD666&label=License&labelColor=0CC2CA">
-  <a href="https://lp.rocketseat.com.br/nlw">
-</a>
+  
+  <a href="https://github.com/darrow12/Happy-NLW-3/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/darrow12/Happy-NLW-3?color=FFD666&label=License&labelColor=0CC2CA">
+  </a>
 
 <br>
 <br>
