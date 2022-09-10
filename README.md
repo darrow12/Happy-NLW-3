@@ -65,4 +65,4 @@ Click the link to see: https://happy-nlw-3.darrow404.repl.co/
 
 <br>
 
-<p align="center">Developed with 💙 by <a href="https://github.com/darrow12">Darrow</a></p>
+<p align="center">Developed with 💛 by <a href="https://github.com/darrow12">Darrow</a></p>
