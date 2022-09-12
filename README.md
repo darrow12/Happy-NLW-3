@@ -41,7 +41,15 @@
 <br>
 <br>
 
-![HAPPY](https://user-images.githubusercontent.com/47289706/189036282-6ce0ddc1-36c7-4f43-a2cb-d9b52ee37a2b.png#vitrinedev)
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Happy**
+| :label: Tecnologias | html, css
+| :rocket: URL         | https://happy-nlw-3.darrow404.repl.co/
+| :fire: Desafio     | https://github.com/rocketseat-education/nlw-03-omnistack
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://user-images.githubusercontent.com/47289706/189036282-6ce0ddc1-36c7-4f43-a2cb-d9b52ee37a2b.png#vitrinedev)
 </div>
 
 
