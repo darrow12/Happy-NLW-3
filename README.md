@@ -44,7 +44,7 @@
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Happy**
-| :label: Tecnologias | html, css
+| :label: Tecnologias | handlebars, css, javascript, sqlite
 | :rocket: URL         | https://happy-nlw-3.darrow404.repl.co/
 | :fire: Desafio     | https://github.com/rocketseat-education/nlw-03-omnistack
 
