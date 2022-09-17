@@ -44,18 +44,17 @@
 ![HAPPY](https://user-images.githubusercontent.com/47289706/189036282-6ce0ddc1-36c7-4f43-a2cb-d9b52ee37a2b.png#vitrinedev)
 </div>
 
+<br>
+
+## :bulb: · Projeto
+
+O Happy foi desenvolvido com uma motivação especial ao Dia das Crianças, sendo uma  aplicação com o intuito de conectar pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças muito mais feliz e especial! 💛
+
+E também, este projeto foi desenvolvido durante o evento ![Next Level Week #03](https://lp.rocketseat.com.br/nlw) da Rocketseat.
 
 <br>
 
-## ✨ · Demo
-
-Quer ver uma demo do projeto já pronto? Ele já está no ar!
-
-Clique no link para ver: https://happy-nlw-3.darrow404.repl.co/
-
-<br>
-
-## 🚀 · Construído com
+## :rocket: · Codado em
 - [Handlebars](https://handlebarsjs.com/)
 - CSS
 - JavaScript
@@ -63,8 +62,31 @@ Clique no link para ver: https://happy-nlw-3.darrow404.repl.co/
 
 <br>
 
-<a href='#top'>🔼 Voltar para o topo</a>
+## :sparkles: · Demo
+
+Quer ver uma demo do projeto já pronto? Ele já está no ar!
+
+Clique no link para ver: https://happy-nlw-3.darrow404.repl.co/
 
 <br>
 
-<p align="center">Desenvolvido com 💛 por <a href="https://github.com/darrow12">Darrow</a></p>
+## :computer: · Layout
+
+O layout foi prototipado por ![Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/) em conjunto com a Rocketseat, e, você pode acessá-lo clicando no botão do Figma abaixo.
+
+[![Figma badge](https://img.shields.io/badge/figma%20-%236E40C9.svg?color=000000&style=for-the-badge&logo=figma&logoColor=dark-orange)](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
+
+<br>
+
+## :label: · Licença
+
+Este projeto está sob a licença do MIT. Veja o arquivo <a href="https://github.com/darrow12/Happy-NLW-3/blob/master/LICENSE">LICENSE</a> para mais detalhes.
+
+<br>
+<br>
+
+<a href='#top'>:arrow_up_small: Voltar para o topo</a>
+
+<br>
+
+<p align="center">Desenvolvido com :yellow_heart: por <a href="https://github.com/darrow12">Darrow</a></p>
