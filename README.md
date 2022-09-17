@@ -55,15 +55,15 @@
 
 <br>
 
-## ✨ · Demo
+## :bulb: · Project
 
-Want to see a live demo of the project is doing? It's already on the web!
+Happy was developed with a special motivation for Children's Day, being an application aimed at connecting people to institutional shelters to make many children's day much happier and special! 💛
 
-Click the link to see: https://happy-nlw-3.darrow404.repl.co/
+Also, this project was developed on the ![Next Level Week #03](https://lp.rocketseat.com.br/nlw) event by Rocketseat.
 
 <br>
 
-## 🚀 · Built with
+## :rocket: · Built with
 - [Handlebars](https://handlebarsjs.com/)
 - CSS
 - JavaScript
@@ -71,8 +71,31 @@ Click the link to see: https://happy-nlw-3.darrow404.repl.co/
 
 <br>
 
-<a href='#top'>🔼 Back to top</a>
+## :sparkles: · Demo
+
+Want to see a live demo of the project is doing? It's already on the web!
+
+Click the link to see: https://happy-nlw-3.darrow404.repl.co/
 
 <br>
 
-<p align="center">Developed with 💛 by <a href="https://github.com/darrow12">Darrow</a></p>
+## :computer: · Layout
+
+The Layout was developed by ![Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/), and you can access it clicking on the Figma badge below.
+
+[![Figma badge](https://img.shields.io/badge/figma%20-%236E40C9.svg?color=000000&style=for-the-badge&logo=figma&logoColor=dark-orange)](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
+
+<br>
+
+## :label: · License
+
+This project is under the MIT license. See the <a href="https://github.com/darrow12/Happy-NLW-3/blob/master/LICENSE">LICENSE</a> file for more details.
+
+<br>
+<br>
+
+<a href='#top'>:arrow_up_small: Back to top</a>
+
+<br>
+
+<p align="center">Developed with :yellow_heart: by <a href="https://github.com/darrow12">Darrow</a></p>
