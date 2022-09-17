@@ -81,7 +81,7 @@ Click the link to see: https://happy-nlw-3.darrow404.repl.co/
 
 ## :computer: · Layout
 
-The Layout was developed by ![Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/), and you can access it clicking on the Figma badge below.
+The layout was prototyped by ![Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/) with Rocketseat, and you can access it clicking on the Figma badge below.
 
 [![Figma badge](https://img.shields.io/badge/figma%20-%236E40C9.svg?color=000000&style=for-the-badge&logo=figma&logoColor=dark-orange)](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
 
